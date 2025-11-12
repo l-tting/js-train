@@ -93,6 +93,7 @@ without reloading
 13. .trim() - removing whitespaces from a string
             - trimLeft() or trimStart()
             - trimRight() or trimEnd()
+14.split()
 
 
 **NUMERIC OPERATIONS**
@@ -113,8 +114,81 @@ without reloading
 **TASK**
 1.slide 53
 2.slide 57
- 
 
+                        **LESSON 2**
+**User Input**
+-Makes programs interactive and dynamic
+-In JS we take user input using prompt()
+-Any data coming from user input is always a string
+**Changing Data Type**
+**String -> Number
+**Number -> String
+**Boolean conversions
+
+1.Type conversion -> manual changing of data from one type to another
+                -> explicitly done by the programmer
+        **Convert string to number**
+        a)Number() - convert string to number
+        b)parseInt() - convert string to integer
+        c)parseFloat() -convert string to decimal number
+
+        **Convert number to string**
+        a) String()
+        b).toString()
+
+2.Type coercion - where data is automatically changed from one type to another by 
+                the language / interpreter 
+                -> not changed by the programmer
+        -> Polymorphism -> operator overloading -> an operator takes more than one form
+        + -> concat -> addition
+
+**JS OPERATORS**
+-> Operators are symbols used to perfom specific tasks
+-> We have 4 categories of operators:
+1.Arithmetic Operators -numeric operations
+-> + (addition)
+-> - (subtract)
+-> / (divide)
+-> * (multiply)
+-> ** (exponential)
+-> % (modulus)
+-> ++(increment) - increases by 1
+-> --(decrement) - decreases by 1
+
+2.Comparison Operators -compares values
+-> == (loose equality) -> type coercion happens -> checks only for the value not data type
+-> ===(strict equality) -> no type coercion -> checks for both value and data type
+-> != (loose inequality)
+-> !==(strict inequality)
+-> > (greater than)
+-> < (less than)
+-> >= (greater than or equal to)
+-> <= (less than or equal to)
+
+3.Logical Operators - logical operations
+-> Logical and - && ->  returns true only if both conditions are true
+-> Logical or -> || -> returns true if t least on condition is true
+-> Logical not -> ! - returns the opposite of a Boolean value
+
+
+4.Assignment Operators - assigns values
+-> = (assign)
+-> += (add and assign)
+-> -= (subtract nd assign)
+-> *= (multiply and assign)
+-> /= (divide and assign)
+-> **= (raise to a number and assign)
+-> %= (get remainder and assign)
+
+
+**Task**
+1.Find out what the 'in' operator does and illustrate with Javascript code - use w3schools or geeksforgeeks as references
+2. Write a program that takes 2 numeric user inputs and outputs the following:
+  -> their sum
+  -> their subtraction
+  -> their modulus
+  -> their exponent
+3.review & redo any undone task on slide 57
 
 
 
