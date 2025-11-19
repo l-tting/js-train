@@ -486,7 +486,7 @@ const userProfile = {
 
 
 **Optional Chaining
-- Is a way to access deeply nested properties in objects without running into errors
+- Is a way to safely access deeply nested properties in objects without running into errors
 -uses ? operator
 
 Kisumu ----- Nakuru ----- Nairobi ----- Voi ------ Mombasa
