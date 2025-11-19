@@ -109,3 +109,26 @@ arr.copyWithin(1,2,4)
 console.log(arr)
 // [100, 300, 400, 400, 500]
 
+
+//slice - extract a portion of an array to create a new array
+let c = [12,13,14,15,16]
+console.log(c.slice(1,4))
+
+//spread operator - to copy arrays
+let arr1 = [10,20,30]
+let arr2 = [...arr1]
+console.log(arr2) //[10,20,30]
+
+//spread operator - merge arrays
+let i = ["Python","JavaScript"]
+let j = ["HTML","CSS"]
+let k = [...i,...j,"PHP"]
+console.log(k)//['Python', 'JavaScript', 'HTML', 'CSS']
+
+//rest operator
+let array = [100,200,300,400,500]
+let [a,b,...other_elements] = array
+console.log(a)//100
+console.log(b)//200
+console.log(other_elements)// [300, 400, 500]
+
