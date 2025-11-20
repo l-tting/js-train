@@ -88,3 +88,24 @@ console.log(Object.keys(userProfile))
 // ['id', 'name', 'contact', 'address', 'preferences', 'projects']
 console.log(Object.keys(userProfile.projects[1])) //['id', 'name', 'technologies', 'tasks'
 console.log(userProfile.projects[1].tasks[1].title) //Deploy to Netlify
+
+
+const user = {
+  id: 101,
+  name: "John Doe",
+  settings: {
+    theme: "dark",
+    notifications: {
+      email: true,
+      sms: false,
+    },
+  },
+  posts: [
+    { id: 1, title: "Hello", comments: [{ text: "Nice post!" }] },
+    { id: 2, title: "World" },
+  ],
+  getStatus: () => "Active",
+};
+
+console.log(Object.keys(user)) //['id', 'name', 'settings', 'posts', 'getStatus']
+console.log(user?.settings?.theme ?? "Light")

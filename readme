@@ -483,8 +483,6 @@ const userProfile = {
 2.Rest (...)
 -> used to group many items or values into a single array - packs elements
 
-
-
 **Optional Chaining
 - Is a way to safely access deeply nested properties in objects without running into errors
 -uses ? operator
@@ -524,3 +522,37 @@ const userProfile = {
 // 3. Get the text of the first comment of the second post; default to "No comments".
 // 4. Call the getStatus function safely; default to "Unknown" if missing.
 // 5. Safely access a deeply nested field that doesn't exist (e.g., userProfile.settings.layout.mode); default to "standard".
+
+
+**Coalesce**
+-> used to provide a default value when data is null or undefined
+-> uses ?? operator
+
+
+**LOOPING**
+-A block of code that executes repeatedly until a specified condition is met
+**types of loops**
+1.for loop - uses the for keyword
+        -used when the no of iterations is known or can be predicted
+2.while loop - uses the while keyword
+        - will keep executing as long as the condition is true 
+
+for loop syntax:
+for(initialization;condition;update){
+        //block of code executing repeatedly
+}
+*initialization - defines the starting point of your loop
+*condition - defines the condition to be met 
+         - as long this condition is true , the loop continues executing
+*update -> increment or decrement
+
+1.Loop through an array
+2.Sum numbers from 1 to 10
+4.Loop backwards using --
+
+
+
+**Task**
+1.Read on nested loops && break in JS - research
+2.Use while loop to sum numbers from 1 to 10
+3.Task on slide 79 
